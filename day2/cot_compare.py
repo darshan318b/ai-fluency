@@ -1,7 +1,7 @@
 """Day 2, Part B: the same question asked WITHOUT and WITH Chain-of-Thought."""
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Day_1')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'day1')))
 
 from config import client, MODEL, banner
 

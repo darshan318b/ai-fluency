@@ -1,7 +1,7 @@
 """Day 2, Part D: print the agent's real ReAct trace to compare with your paper trace."""
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Day_1')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'day1')))
 
 from agent import agent
 

@@ -1,7 +1,7 @@
 """Day 2, Part C: run the same CoT prompt several times and take the majority answer."""
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Day_1')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'day1')))
 
 from collections import Counter
 from config import client, MODEL, banner
